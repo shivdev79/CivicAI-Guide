@@ -99,7 +99,8 @@ app.post('/api/guide', (req, res) => {
 // Serve frontend static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('*', (req, res) => {
+// Fallback for Single Page Application
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
