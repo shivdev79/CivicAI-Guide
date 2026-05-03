@@ -1,0 +1,91 @@
+{
+  "roles": {
+    "voter": "A citizen participating in the election by casting a ballot for their preferred candidates.",
+    "candidate": "An individual seeking to be elected to a public office.",
+    "student": "Someone seeking to learn about the democratic process and election mechanisms."
+  },
+  "steps": [
+    {
+      "id": "registration",
+      "title": "Voter Registration",
+      "description": "Citizens must register to vote before the deadline. Eligibility usually requires being 18+ and a citizen.",
+      "details": "The registration process ensures that only eligible citizens can vote. It prevents fraud and helps organize polling stations based on demographics. You can register online, by mail, or in person at designated locations.",
+      "duration": "Ongoing, usually closes 2-4 weeks before election day.",
+      "role": ["voter", "student"]
+    },
+    {
+      "id": "nomination",
+      "title": "Candidate Nomination",
+      "description": "Candidates file paperwork and gather signatures to appear on the ballot.",
+      "details": "To run for office, candidates must submit a declaration of candidacy, pay a filing fee, and often submit a petition with a minimum number of valid signatures from registered voters in their district.",
+      "duration": "Several months before the election.",
+      "role": ["candidate", "student"]
+    },
+    {
+      "id": "campaigning",
+      "title": "Campaigning & Debates",
+      "description": "Candidates promote their platforms through ads, rallies, and debates.",
+      "details": "This period is crucial for candidates to communicate their vision, policies, and differentiate themselves from opponents. It involves fundraising, town halls, and media appearances.",
+      "duration": "Months leading up to election day.",
+      "role": ["voter", "candidate", "student"]
+    },
+    {
+      "id": "voting",
+      "title": "Voting Day",
+      "description": "Registered voters cast their ballots at designated polling places or via mail.",
+      "details": "On election day, polls are open for specific hours. Voters must bring necessary ID (if required). Mail-in and early voting options may also be available depending on the jurisdiction.",
+      "duration": "1 Day (with early voting periods prior).",
+      "role": ["voter", "candidate", "student"]
+    },
+    {
+      "id": "counting",
+      "title": "Vote Counting & Results",
+      "description": "Ballots are collected, verified, and counted to determine the winner.",
+      "details": "Election officials use secure machines and manual processes to count votes. Initial results are often projected on election night, but official certification can take weeks, especially with mail-in ballots or close races requiring recounts.",
+      "duration": "Days to Weeks.",
+      "role": ["voter", "candidate", "student"]
+    }
+  ],
+  "timeline": [
+    {
+      "phase": "Phase 1: Preparation",
+      "events": [
+        "Voter Registration Opens",
+        "Candidate Filing Period"
+      ]
+    },
+    {
+      "phase": "Phase 2: The Campaign",
+      "events": [
+        "Primary Elections (if applicable)",
+        "Party Conventions",
+        "General Campaigning & Debates"
+      ]
+    },
+    {
+      "phase": "Phase 3: The Vote",
+      "events": [
+        "Early Voting Begins",
+        "Election Day"
+      ]
+    },
+    {
+      "phase": "Phase 4: Post-Election",
+      "events": [
+        "Vote Counting",
+        "Certification of Results",
+        "Inauguration / Taking Office"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I know if I am registered?",
+      "a": "You can check your voter registration status online through your state or local election office's official website."
+    },
+    {
+      "q": "What happens if there is a tie?",
+      "a": "Tie-breaking procedures vary by jurisdiction. They can range from a coin toss or drawing lots to holding a special run-off election."
+    }
+  ]
+}
